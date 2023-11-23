@@ -111,12 +111,12 @@
 function likes(names) {    //takes an array of user names
 
 let likes = names.length;   //how many likes
-                
+
   switch (likes) {
-                    
+
     case 0:
       likes = "no one likes this";
-      break;      
+      break;
     case 1:
       likes = names[0] + " likes this";
       break;
@@ -128,7 +128,7 @@ let likes = names.length;   //how many likes
       break;
     default:
       likes = names[0] + ", " + names[1] + " and " + (names.length - 2) + " others like this";
-    
+
      }
 
     return likes;
@@ -151,27 +151,5 @@ let likes = names.length;   //how many likes
             </ul>
         </section>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
-
 </html>
