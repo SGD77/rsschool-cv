@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Consolas, 'Courier New', monospace;
+}
+
+:root {
+    --background: #1f1f1f;
+    --dark: #808080;
+    --accent1: #ce9178;
+    --accent2: #368cd6;
+    --bright: #7cdcfe;
+    --text: #cccccc;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: var(--dark);
+    background-color: var(--background);
+    padding: 50px 50px;
+}
+
+a {
+    color: var(--accent1)
+}
+
+h1 {
+    color: var(--accent1);
+    font-size: 70px;
+}
+
+#name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.white {
+    color: var(--text);
+}
+
+.namediv {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: -15px;
+}
+
+h2 {
+    color: var(--accent2);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: -15px;
+    font-size: 25px;
+}
+
+span {
+    color: var(--dark);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+aside {
+    flex: 0 0 300px;
+    padding-right: 50px;
+}
+
+section {
+    flex: 0 0 600px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+p, table, ul {
+    padding-bottom: 20px;
+}
+
+td {
+    padding-right: 10px;
+}
+
+pre {
+    font-size: 70%;
+    padding-left: 50px;
+    background-color:black;
+    color: darkcyan;
+}
+
